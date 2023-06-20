@@ -118,6 +118,15 @@ li:hover{
     margin-bottom: 15px;
 }
 
+.back-to-top {
+    position: fixed;
+    border-radius: 100px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    color: aliceblue;
+  }
+
 .footer{
     background-color: black;
     padding: 10px;
