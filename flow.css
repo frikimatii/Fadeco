@@ -1,0 +1,124 @@
+
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.separador{
+    border-bottom: #585858 3px solid;
+}
+
+li{
+    transition: step-start;
+    text-decoration: underline 4px #192965;
+}
+li:hover{
+    text-decoration: none;
+    color: #253a93;
+}
+
+
+
+.coratdoraFadeco:hover{
+    transition: transform 0.3s ease;
+    transform: rotateY(180deg);
+    transition: transform 0.3s ease-in;
+}
+
+
+.line{
+    background-color: #253a93;
+    height: 5px;
+    margin-bottom: 30px;
+}
+.line1{
+    background-color: #192965;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.tex{
+    margin-top: -75px;
+}
+
+.productos{
+    transition: background-color 0.3s ease;
+}
+.productos:hover{
+    color: #253a93;
+    text-decoration: underline #253a93;
+}
+.caja{
+    background-color: #192965;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: #253a93 solid 10px;
+    border-radius: 50px;
+    padding: 10px;
+
+
+}
+
+.anima:hover{
+    scale: 1.2;
+}
+
+
+.otroproducto{
+    background-color: #253a93;
+    padding: 20px;
+    border-radius: 50px;
+    width: 50%;
+    border: solid 7px #192965;
+}
+
+
+.bi-exclamation-triangle-fill{
+    color: yellow;
+}
+.bi-stars{
+   color: #00CED1;
+}
+.bi-tools{
+  color:  #FF7F50;
+}
+
+.clear{
+    border: 2px solid;
+    border-top: none;
+    border-right: none;
+}
+
+
+.box-texto{
+    width: 90%;
+    margin: auto;
+}
+
+.reco{
+    background-color: #253a93;
+    border: solid #192965 7px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.ratio{
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.bor{
+    border-left: 5px solid #253a93;
+    border-right: 5px solid #253a93;
+    margin-bottom: 15px;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
